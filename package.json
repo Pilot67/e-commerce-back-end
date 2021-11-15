@@ -1,0 +1,23 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "CLI backend development for an e-commerce database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "author": "Stuart Simmons",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+    "dependencies": {
+    "dotenv": "^10.0.0",
+    "express.js": "^1.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+  }
+}
