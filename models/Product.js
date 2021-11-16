@@ -26,6 +26,7 @@ Product.init(
         isNumeric: true,          // will only allow numbers
         isDecimal: true,          // will only allow decimal
       },
+    },
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -43,7 +44,6 @@ Product.init(
         unique: false,
       }
     },
-    }
   },
   {
     sequelize,
