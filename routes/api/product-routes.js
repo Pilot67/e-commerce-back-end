@@ -66,7 +66,12 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
   // update product data
   try {
-    const productData = await Product.update(req.body, {
+    const productData = await Product.update({
+      product_name: req.body.product_name,
+      price: req.body.price,
+      stock: req.body.stock,
+      category_id: req.body.category_id,
+    }, {
       where: {
         id: req.params.id,
       },
