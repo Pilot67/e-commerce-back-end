@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   try {
     const categoriesData = await Category.findAll({
       include: [{ model: Product }],
-      order: ['category_name'],
+      order: ['id'],
     });
     res.status(200).json(categoriesData);
   } catch (err) {
@@ -69,6 +69,7 @@ router.delete('/:id', async (req, res) => {
       where: {
         id: req.params.id
       },
+
     });
     if (!(categoriesData > 0)) {
       res.status(404).json({ message: 'Invalid - Category id not found!' });
