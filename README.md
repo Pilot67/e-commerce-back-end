@@ -94,7 +94,8 @@ No test files yet, check again soon<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Links
-Published Link: https://github.com/Pilot67/e-commerce-back-end<br>
+Operational Video Link: https://drive.google.com/file/d/1h4qNv9zqjRKv7ol8i7EF1rsmLlZO4t2v/view?usp=sharing  
+Github Link: https://github.com/Pilot67/e-commerce-back-end  
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Questions
