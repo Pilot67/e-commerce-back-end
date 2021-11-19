@@ -21,8 +21,9 @@
 <br>
 
 ## Description  
-The back-end application demonstrates the use of MySQL and relational mapping within database tables.  
-<br>
+The back-end application demonstrates the use of MySQL and relational mapping within database tables along with CRUD functionality.  
+![Insomnia-1](https://user-images.githubusercontent.com/86697483/142518902-5651812e-0d89-43ad-8198-52f6ab3c5fef.png)  
+
 <p align="right">(<a href="#top">back to top</a>)</p>
   
   
@@ -32,10 +33,9 @@ The application requires the following modules to be installed:
  * mysql2.js  
  * sequalize.js
  * express.js  
- * dotenv.js
-The above packages can be installed using npm insall at the command prompt.  
+ * dotenv.js  
 
-<br>
+The above packages can be installed using npm install at the command prompt.  
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Usage
@@ -48,6 +48,8 @@ Using Insomnia or similar software, enter the routes as follows to interrogate t
 localhost:3001/api/categories/  
 localhost:3001/api/products/  
 localhost:3001/apt/tags/  
+![Insomnia-3](https://user-images.githubusercontent.com/86697483/142519077-6d6d1790-45cd-4854-8103-0f46abc8fbb5.png)  
+
 GET will get all associated data  
 If you add an id numer then only that ID will be displayed  
 POST will create a new entry  
@@ -70,7 +72,8 @@ for Tags:
 {  
    "tag_name" : " Zebra Stripes"  
 }  
-<br>
+![Insomnia-2](https://user-images.githubusercontent.com/86697483/142519037-48a8d09c-ce06-4b34-bf5f-19263d05fd4d.png)  
+
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Licence
